@@ -119,6 +119,8 @@ comments:
   twikoo:
     js: https://cdn.jsdelivr.net/npm/twikoo@1.4.0/dist/twikoo.all.min.js # 建议锁定版本
     envId: https://xxx # vercel函数
+  waline:
+    js: //cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
 ######## Footer ########
 footer:
