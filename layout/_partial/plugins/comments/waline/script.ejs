@@ -15,7 +15,7 @@
         link : "<%= theme.comments.waline.locale.link %>",
         admin: "<%= theme.comments.waline.locale.admin %>",
       }
-      var waline = new Waline({
+      Waline.init({
         el: '#waline_container',
         serverURL: serverURL,
         avatar: "<%= theme.comments.waline.avatar %>",
